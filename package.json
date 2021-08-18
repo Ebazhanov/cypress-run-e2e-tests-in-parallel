@@ -1,0 +1,15 @@
+{
+  "name": "run-cypress-tests-in-parallel-without-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ebazhanov/cypress-parallel-tests-run.git",
+  "author": "Evgenii Bazhanov <evg.bazhanov@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "cy:run:part_1": "cypress run --browser chrome --spec ./cypress/integration/1-getting-started/todo.spec.js",
+    "cy:run:part_2": "cypress run --browser chrome --spec ./cypress/integration/2-advanced-examples/actions.spec.js"
+  },
+  "devDependencies": {
+    "cypress": "^8.3.0"
+  }
+}
