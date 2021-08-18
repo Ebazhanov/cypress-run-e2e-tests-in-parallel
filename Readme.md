@@ -5,8 +5,8 @@
 All we need to do is split the tests into parts `package.json` that we want to run in `CircleCI` in different Docker containers.
 ```json
   "scripts": {
-    "cy:run:part_1": "cypress run --browser chrome --spec ./cypress/integration/1-getting-started/todo.spec.js",
-    "cy:run:part_2": "cypress run --browser chrome --spec ./cypress/integration/2-advanced-examples/actions.spec.js"
+    "cy:run:part_1": "cypress run --browser chrome --spec ./cypress/integration/1-getting-started/todo.spec.ts",
+    "cy:run:part_2": "cypress run --browser chrome --spec ./cypress/integration/2-advanced-examples/actions.spec.ts"
   },
 ```
 
