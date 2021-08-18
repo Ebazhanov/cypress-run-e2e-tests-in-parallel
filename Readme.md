@@ -26,9 +26,9 @@ workflows:
             - build
 ```
 
-If you have difficulty reading [.circleci/config.yml](.circleci/config.yml) I suggest you analyze a simpler version [gist.github.com/Ebazhanov/6b0...](https://gist.github.com/Ebazhanov/6b0434132145e0b1ef67b07201c6cde0)
+- If you have difficulty reading [.circleci/config.yml](.circleci/config.yml) I suggest you analyze a simpler version [gist.github.com/Ebazhanov/6b0...](https://gist.github.com/Ebazhanov/6b0434132145e0b1ef67b07201c6cde0)
 
-Also, if you still want to use Cypress Dashboard, then here's their price list [cypress.io/pricing/](https://www.cypress.io/pricing/)
+- Also, if you still want to use Cypress Dashboard, then here's their price list [cypress.io/pricing/](https://www.cypress.io/pricing/)
 
 See my examples with generating **HTML** Reports for Cypress tests
 - ⭐ [Allure-2](https://github.com/Ebazhanov/cypress-allure2-report-example)
