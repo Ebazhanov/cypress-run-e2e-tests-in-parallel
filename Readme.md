@@ -1,4 +1,6 @@
-### Running Cypress Tests in Parallel without using paid dashboard
+### Run Cypress tests in Parallel without using paid [Dashboard](https://www.cypress.io/dashboard/)
+
+![CircleCI](cypress/screen-circleci.jpg)
 
 All we need to do is split the tests into parts `package.json` that we want to run in `CircleCI` in different Docker containers.
 ```json
@@ -28,8 +30,8 @@ If you have difficulty reading [.circleci/config.yml](.circleci/config.yml) I su
 
 Also, if you still want to use Cypress Dashboard, then here's their price list [cypress.io/pricing/](https://www.cypress.io/pricing/)
 
-See my examples with generating HTML Reports for cypress tests
-- ⭐ [allure2](https://github.com/Ebazhanov/cypress-allure2-report-example)
+See my examples with generating **HTML** Reports for Cypress tests
+- ⭐ [Allure-2](https://github.com/Ebazhanov/cypress-allure2-report-example)
 - 👍 [mochawesome-html-report](https://github.com/Ebazhanov/cypress-mochawesome-html-report-example)
 
 
