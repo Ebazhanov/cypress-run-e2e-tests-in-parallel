@@ -2,7 +2,7 @@
 
 ![CircleCI](cypress/screen-circleci.jpg)
 
-**NOTE:** Important to know that you have to have paid subscription for CircleCI which allowed you to scale your jobs in concurrency otherwise, all your jobs will queue up and execute everything sequentially !!!
+**NOTE:** Important to know that you have to have paid subscription for CircleCI which allowed you to scale your jobs in concurrency otherwise, all your jobs will queue up and will be executed sequentially !!!
 
 ------
 All we need to do is split the tests into parts `package.json` that we want to run in `CircleCI` in different Docker containers.
