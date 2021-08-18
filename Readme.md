@@ -2,6 +2,9 @@
 
 ![CircleCI](cypress/screen-circleci.jpg)
 
+**NOTE:** Important to know that you have to have paid subscription for CircleCI which allowed you to scale your jobs in concurrency otherwise, all your jobs will queue up and execute everything sequentially !!!
+
+------
 All we need to do is split the tests into parts `package.json` that we want to run in `CircleCI` in different Docker containers.
 ```json
   "scripts": {
@@ -30,7 +33,8 @@ workflows:
 
 - Also, if you still want to use Cypress Dashboard, then here's their price list [cypress.io/pricing/](https://www.cypress.io/pricing/)
 
-See my examples with generating **HTML** Reports for Cypress tests
+-----
+P.S. see my examples with generating **HTML** Reports for Cypress tests
 - ⭐ [Allure-2](https://github.com/Ebazhanov/cypress-allure2-report-example)
 - 👍 [mochawesome-html-report](https://github.com/Ebazhanov/cypress-mochawesome-html-report-example)
 
